@@ -15,7 +15,7 @@ function LoginSignup() {
       </div>
 
       <div className="inputs">
-      {action === "Log In" ? null : (
+      {action === "Log In" ? <div></div> : (
   <div className="input">
     <div className="icons"><CiUser /></div>
     <input type="text" placeholder="Name" />
