@@ -10,7 +10,9 @@ function LoginSignup() {
   return (
     <div className="container">
       <div className="header">
+      
         <div className="text">{action}</div>
+
         <div className="underline"></div>
       </div>
 
@@ -49,11 +51,12 @@ function LoginSignup() {
           Log In
         </div>
       </div>
+
       {action === "Sign up"?<div></div>:<div className="forgot-password">
         Forgot password? <span>Click here</span>
       </div>}
 
-      
+    
     </div>
   );
 }
